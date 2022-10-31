@@ -9,7 +9,7 @@ compare two numbers to get the lesser number, returns one of the values if the t
 # Usage
 
 ```
-import { isLess } from "is-less";;\
+import { isLess } from "is-less";
 
 console.log(isLess(3, 5)); //=> 3
 console.log(isLess(5, 2)); //=> 2

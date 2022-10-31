@@ -5,4 +5,4 @@ compare two numbers to get the lesser number, returns one of the values if the t
 
 # installation 
 
-`npm i isLess --save`
+`npm i is-less --save`

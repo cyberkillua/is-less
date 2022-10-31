@@ -1,6 +1,6 @@
 const isNumber = require("is-number");
 
-function isLess(numA, numB) {
+module.exports = function isLess(numA, numB) {
   if (!isNumber(numA)) {
     throw new TypeError("expected a number");
   }
@@ -18,6 +18,4 @@ function isLess(numA, numB) {
   if (numB < numA) {
     return numB;
   }
-}
-
-module.export.isLess = isLess;
+};

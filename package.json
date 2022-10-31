@@ -10,5 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "is-number": "^7.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberkillua/is-less.git"
+  },
+  "keywords": [
+    "is-less"
+  ],
+  "bugs": {
+    "url": "https://github.com/cyberkillua/is-less/issues"
+  },
+  "homepage": "https://github.com/cyberkillua/is-less#readme"
 }

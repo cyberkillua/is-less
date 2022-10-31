@@ -1,0 +1,14 @@
+{
+  "name": "is-less",
+  "version": "1.0.0",
+  "description": "Compares two numbers and returns the lesser one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moshood Alimi",
+  "license": "ISC",
+  "dependencies": {
+    "is-number": "^7.0.0"
+  }
+}

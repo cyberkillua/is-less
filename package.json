@@ -1,6 +1,6 @@
 {
   "name": "is-less",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Compares two numbers and returns the lesser one",
   "main": "index.js",
   "scripts": {

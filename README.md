@@ -1,18 +1,29 @@
-# What is this 
+# What is this
 
-compare two numbers to get the lesser number, returns one of the values if the two numbers are equal 
+This is a simple function that takes any number of arguments and returns the smallest of them. The function also allows for an optional argument to specify how many of the smallest numbers to run the operation on and in what direction.
 
+# Installation
 
-# Installation 
 `npm i is-less --save`
 
 # Usage
 
 ```
-import { isLess } from "is-less";
+const { isLess } = require("path/to/isLess.js");
 
-console.log(isLess(3, 5)); //=> 3
-console.log(isLess(5, 2)); //=> 2
-console.log(isLess(4, 4)); //=> 4
+// Returns the smallest number of the two first arguments
+const result = isLess(1, 2, 3)();
+
+// Returns the smallest number of the three first arguments
+const result = isLess(1, 2, 3)(3);
+
+// Returns the smallest number of the arguments from behind
+const result = isLess(1, 2, 3)(-2);
 
 ```
+
+# Tests
+
+The test folder contains unit tests for the isLess function.
+
+To run the tests, use the command `npm test`
